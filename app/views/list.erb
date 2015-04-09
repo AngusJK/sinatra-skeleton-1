@@ -1,0 +1,11 @@
+<hr>
+  <a href='/'>Home</a>
+<hr
+
+<div id="contactlist">
+  <ol>
+    <% @contact.each do |contact| %>
+    <li class="contacts">First Name: <%= contact.first_name %>, Last Name: <%= contact.last_name %>, E-mail: <%= contact.email %>, Phone Number: <%= contact.phone %></li>
+    <% end %>
+  </ol>
+</div>
