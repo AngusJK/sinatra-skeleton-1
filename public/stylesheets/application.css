@@ -10,8 +10,8 @@ h2 {
   font-family: courier;
 }
 
-#input {
-  background-color: #3FCEEB;
+#input:hover {
+  background-color: #F75CB4;
 }
 
 #creator {
@@ -21,3 +21,8 @@ h2 {
 #searcher {
   background-color: #F75CB4;
 }
+
+#firstname:hover, #lastname:hover, #email:hover, #phone:hover {
+  background-color:  #F7ED5C;
+}
+
